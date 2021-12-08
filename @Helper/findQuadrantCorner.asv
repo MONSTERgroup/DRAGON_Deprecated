@@ -1,0 +1,28 @@
+function [x,y] = findQuadrantCorner(quadrant)
+%FINDQUADRANTCORNER Summary of this function goes here
+%   Detailed explanation goes here
+
+xLim = xlim
+
+if (quadrant == 1)
+    x = ax.xLim(2);
+    y = ax.yLim(2);
+end
+
+if (quadrant == 2)
+    x = ax.xLim(1);
+    y = ax.yLim(2);
+end
+
+if (quadrant == 3)
+    x = ax.xLim(1);
+    y = ax.yLim(1);
+end
+
+if (quadrant == 4)
+    x = ax.xLim(2);
+    y = ax.yLim(1);
+end
+
+end
+
