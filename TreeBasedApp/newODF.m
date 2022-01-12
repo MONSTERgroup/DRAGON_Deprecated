@@ -1,7 +1,7 @@
 function newODF(app, nvp)
 arguments
     app DRAGON
-    nvp.Parent uitree
+    nvp.Parent
 end
 
 if isfield(nvp, 'Parent')
