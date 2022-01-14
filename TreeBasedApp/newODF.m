@@ -14,5 +14,7 @@ t = uitreenode('Parent',p);
 t.Text = 'ODF';
 t.Tag = 'ODF';
 
+t.UserData = HierarchicalODF;
+
 end
 

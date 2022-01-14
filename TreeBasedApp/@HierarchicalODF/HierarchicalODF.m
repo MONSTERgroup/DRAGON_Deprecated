@@ -15,7 +15,7 @@ classdef HierarchicalODF < handle
         function this = HierarchicalODF()
             %HierarchicalODF Construct an instance of this class
             %   Detailed explanation goes here
-            this.CPFs{end+1} = ComponentPoleFigure();
+            %this.CPFs{end+1} = ComponentPoleFigure();
         end
         
         computeODF(this, proj)

@@ -14,5 +14,7 @@ t = uitreenode('Parent',p);
 t.Text = 'PF';
 t.Tag = 'PF';
 
+t.UserData = ComponentPoleFigure;
+
 end
 
