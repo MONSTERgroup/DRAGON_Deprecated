@@ -47,7 +47,7 @@ for iX = 1:xsize
         
        % if minimum < this.baseline && maximum > this.baseline
        %     rContours(iX,iY) = this.baseline;
-        if minimum <= this.baseline
+        if minimum < this.baseline
             rContours(iX,iY) = minimum;
         elseif maximum > this.baseline
             rContours(iX,iY) = maximum;
