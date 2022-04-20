@@ -1,0 +1,4 @@
+initialize MTEX 5.8.0  ..Warning: Executing startup failed in matlabrc.
+This indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:
+MATLAB:load:couldNotReadFile
+Unable to find file or directory 'C:\Users\benjamin.begley\AppData\Local\Temp\benjamin.begley\mcrCache9.11\DRAGON0\DRAGON\Begley-MSE\MonsterTEX\plotting\plotting_tools\colors.mat'.

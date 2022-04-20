@@ -1,0 +1,448 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="795091540" file="C:\Users\benjamin.begley\Documents\GitHub\DRAGON\TreeBasedApp\DRAGON.prj" location="C:\Users\benjamin.begley\Documents\GitHub\DRAGON\TreeBasedApp" name="DRAGON" preferred-package-location="C:\Users\benjamin.begley\Documents\GitHub\DRAGON\TreeBasedApp\DRAGON\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>DRAGON</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>0.0</param.version>
+    <param.authnamewatermark>Frankie J. Buttersworth</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\DRAGON\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\DRAGON\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\DRAGON\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\DRAGON\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\DRAGON</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options>-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/nfft
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/EBSDAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/EBSDAnalysis/EBSDSmoothing
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/EBSDAnalysis/FMC
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/ODFAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/ODFAnalysis/standardODFs
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/PoleFigureAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/S2Fun
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/TensorAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/compatibility
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/CrystalGeometry
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/CrystalOrientations
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/EBSDAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Elasticity
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/EBSDAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/ODFAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/PoleFigureAnalysis_index
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/SphericalFunctions_index
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/TensorAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/geometry
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/plotting
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/FunctionReference/tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/GeneralConcepts
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/GrainBoundaries
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Grains
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Misorientations
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/ODFAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/PhaseTransistions
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Plasticity
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Plotting
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/PoleFigureAnalysis
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Rotations
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/SphericalFunctions
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Tensors
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Tutorials
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/Vectors
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/VectorsRotations
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/html
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/doc/html/helpsearch-v3
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/HealpixLib
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/MatPlotLib
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/colornames
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/colornames/html
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/dipstat
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/export_fig
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/fcw
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/insidepoly
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/jsonlab
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/jsonlab/examples
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/libDirectional
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/stuct2xml
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/extern/tensorLab
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/geometry
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/geometry/geometry_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/interfaces
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/interfaces/description
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/interfaces/import_wizard
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/interfaces/tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/mex
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/obsolete
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/obsolete/dummy
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/ODFSections
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/colormaps
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/directionColorKeys
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/orientationColorKeys
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/orientationPlot
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/plotting_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/plotting/sphericalProjections
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tests
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/dubna_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/file_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/graph_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/kernelFunctions
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/math_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/misc_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/option_tools
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/pathes
+-I C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/tools/statistic_tools
+-a C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX/data</param.user.defined.mcr.options>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>log</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DRAGON.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\5000035.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Ag-Silver.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Al-Aluminum.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Al2O3-Corundum.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\C-Diamond.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Cr-Chromium.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\crystal.phl</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Cu-Copper.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Fe-Iron-alpha.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Fe-Iron-Austenite.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Fe-Iron-beta.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Fe-Iron-delta.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Fe-Iron-gamma.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\GaAs.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Hematite.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\LaB6.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Magnetite.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Mg-Magnesium.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Mn-Manganese-gamma.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Mo-Molybdenum-bcc.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Mo-Molybdenum-fcc.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\NaCl-Halite.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Ni-Nickel-cubic.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Ni-Nickel-hexagonal.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\olivin.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\quartz.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Rhabdite.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Si-Silicon.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Ti-Titanium-alpha.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\Ti-Titanium-beta.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\cif\ZrO2-Baddeleyite.cif</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S00.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S01.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S02.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S03.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S04.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S05.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S06.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S07.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S08.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S09.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S10.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S11.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S12.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S13.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S14.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S15.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S16.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S17.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S18.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S19.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S20.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S21.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S22.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S23.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S24.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S25.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S26.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S27.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S28.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S29.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S30.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S31.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S32.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S33.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S34.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S35.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S36.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S37.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S38.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S39.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S40.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S41.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S42.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S43.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S44.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S45.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S46.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S47.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S48.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S49.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S50.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S51.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S52.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S53.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S54.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S55.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S56.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S57.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\3dData\S58.ANG</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\85_829grad_07_09_06.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\ACOM.ang</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\copper.osc</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\CSL.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\data.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\DC06_2uniax.ang</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\DRex.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\eclogite.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\EDXLMDTi64.cpr</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\EDXLMDTi64.crc</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\Emsland_plessite_500x_15.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\ferrite.ang</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\Forsterite.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\martensite.cpr</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\martensite.crc</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\olivineopticalmap.ang</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\P5629U1.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\polycrystalline_aluminum.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\sharp.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\single_grain_aluminum.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\testdata_generator.py</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\testdata_hex.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\testdata_sqr.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\titanium.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\EBSD\twins.ctf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\ODF\odf.mtex</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\ODF\odf.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\orientation\Tongue_Quartzite_Bunge_Euler</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\a52214s.int</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\aachen</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\aachen.cpf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\aachen.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\aachen_exp.EXP</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\beartex.XPa</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\beartex.xpe</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\beartex2.xpe</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\BearTex\go_2_2.XPa</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\BearTex\Test_2.XPa</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\bruker.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Bruker_xrd_10-10.ras</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(02-21)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(10-10)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(10-11)(01-11)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(10-12)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(11-20)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(11-21)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\dubna\Q(11-22)_amp.cnv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\EMSE102.ana</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\EMSE103.ana</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\EMSE2102a.ana</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\EMSE_multi.cor</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\geesthacht.dat</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\geesthacht\ST42-104-110.dat</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\gpol\Al_111.gpol</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\gpol\Al_200.gpol</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\gpol\Al_220.gpol</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\gpol\Al_311.gpol</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\IBM.ibm</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\juelich012.jul</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\juelich130</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\LaboTEX.epf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\LaboTEX.pow</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\LaboTEX.PPF</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\nja\seifert-111.nja</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\nja\seifert-200.nja</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\nja\seifert-220.nja</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\out1.out</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\philips-111.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\philipsXpert.rw1</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\popla.epf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\popla.GPF</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\popla_108.epf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ptx.ptx</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ptx.rpf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ptx\gt9104.ptx</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ptx\gt9110.ptx</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ptx\gt9202.ptx</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Queens_alu.plf</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Rigaku.DAT</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Rigaku002.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Rigaku_txt.TXT</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Rigaku_txt_110.TXT</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Rigaku_xrd_110.asc</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\Rigaku_xrd_111.asc</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\saclay_004</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\siemens.dat</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\siemens.pwd</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\slc110.slc</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\xrdml.xrdml</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_defocusing_PF_002_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_defocusing_PF_100_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_defocusing_PF_101_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_defocusing_PF_102_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_Wal_50_5x5_PF_002_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_Wal_50_5x5_PF_100_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_Wal_50_5x5_PF_101_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\PoleFigure\ZnCuTi\ZnCuTi_Wal_50_5x5_PF_102_R.UXD</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\summary.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\1000055.mpod</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\129a_ABC_ol_EULER</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\Fosterite_PC_model.TEXP</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\Mainprice2json.m</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\Olivine1997PC.GPa</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\Single_RH_quartz_poly.P</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\tensor\Tongue_Quartzite_Bunge_Euler</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\testgrains.mat</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\vector3d\quadratureS2Grid_chebyshev.mat</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\vector3d\quadratureS2Grid_gauss.mat</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\vector3d\smiley.csv</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\vector3d\vectors.txt</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\VPSC\ACT_PH1.OUT</file>
+      <file>C:\Users\benjamin.begley\Documents\GitHub\Begley-MSE\MonsterTEX\data\VPSC\TEX_PH1.OUT</file>
+      <file>${PROJECT_ROOT}\@BoundaryCircle\BoundaryCircle.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\ComponentPoleFigure.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\computePoleFigure.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\importImage.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\newContourLevel.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\requireTransform.m</file>
+      <file>${PROJECT_ROOT}\@ContourLevel\addPolygon.m</file>
+      <file>${PROJECT_ROOT}\@ContourLevel\ContourLevel.m</file>
+      <file>${PROJECT_ROOT}\@Helper\findQuadrant.m</file>
+      <file>${PROJECT_ROOT}\@Helper\findQuadrantCorner.m</file>
+      <file>${PROJECT_ROOT}\@Helper\Helper.m</file>
+      <file>${PROJECT_ROOT}\@Helper\isQuadrantNeighbor.m</file>
+      <file>${PROJECT_ROOT}\@Helper\plotDot.m</file>
+      <file>${PROJECT_ROOT}\@HierarchicalODF\computeODF.m</file>
+      <file>${PROJECT_ROOT}\@HierarchicalODF\HierarchicalODF.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\findCenter.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\load.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\moveToOrigin.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\plot.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\transform.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\TransformableImage.m</file>
+      <file>${PROJECT_ROOT}\Dorkus.png</file>
+      <file>${PROJECT_ROOT}\getAppRoot.m</file>
+      <file>${PROJECT_ROOT}\getFoldersToAddToPath.m</file>
+      <file>${PROJECT_ROOT}\newODF.m</file>
+      <file>${PROJECT_ROOT}\newPF.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\DRAGON\for_testing" name="readme.txt" optional="true">C:\Users\benjamin.begley\Documents\GitHub\DRAGON\TreeBasedApp\DRAGON\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\DRAGON\for_testing" name="splash.png" optional="false">C:\Users\benjamin.begley\Documents\GitHub\DRAGON\TreeBasedApp\DRAGON\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\DRAGON\for_testing" name="DRAGON.exe" optional="false">C:\Users\benjamin.begley\Documents\GitHub\DRAGON\TreeBasedApp\DRAGON\for_testing\DRAGON.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

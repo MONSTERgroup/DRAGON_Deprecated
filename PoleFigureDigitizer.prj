@@ -1,0 +1,129 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\benjamin.begley\Documents\GitHub\DRAGON\PoleFigureDigitizer.prj" location="C:\Users\benjamin.begley\Documents\GitHub\DRAGON" name="PoleFigureDigitizer" target="target.mlapps" target-name="Package App">
+    <param.appname>PoleFigureDigitizer</param.appname>
+    <param.authnamewatermark>Ben Begley</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\benjamin.begley\AppData\Local\Temp\tpe695cd43_a534_4b73_ab8d_53f0ed5505e7.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.11</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>5bc0ba5f-afa2-4372-aad0-1762a0db7bbc</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MatlabDigitizePoleFigures.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\@BoundaryCircle\BoundaryCircle.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\ComponentPoleFigure.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\computePoleFigure.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\importImage.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\newContourLevel.m</file>
+      <file>${PROJECT_ROOT}\@ComponentPoleFigure\requireTransform.m</file>
+      <file>${PROJECT_ROOT}\@ContourLevel\addPolygon.m</file>
+      <file>${PROJECT_ROOT}\@ContourLevel\ContourLevel.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\add_polygon.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\change_contour_level.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\change_pole_figure.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\GUIContextManager.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\import_image.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\preview_current_pole_figure.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_baseline_value_from_pf.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_contour_height_from_value.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_contour_value_from_height.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_CS_from_lattice.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_miller_option_from_pole.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_miller_options_from_lattice.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_pf_baseline_from_value.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_pole_miller_from_options.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_projection_from_value.m</file>
+      <file>${PROJECT_ROOT}\@GUIContextManager\set_resolution_from_value.m</file>
+      <file>${PROJECT_ROOT}\@Helper\findQuadrant.m</file>
+      <file>${PROJECT_ROOT}\@Helper\findQuadrantCorner.m</file>
+      <file>${PROJECT_ROOT}\@Helper\Helper.m</file>
+      <file>${PROJECT_ROOT}\@Helper\isQuadrantNeighbor.m</file>
+      <file>${PROJECT_ROOT}\@Helper\plotDot.m</file>
+      <file>${PROJECT_ROOT}\@HierarchicalODF\computeODF.m</file>
+      <file>${PROJECT_ROOT}\@HierarchicalODF\HierarchicalODF.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\findCenter.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\load.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\moveToOrigin.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\plot.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\transform.m</file>
+      <file>${PROJECT_ROOT}\@TransformableImage\TransformableImage.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\benjamin.begley\Documents\GitHub" name="DRAGON" optional="false">C:\Users\benjamin.begley\Documents\GitHub\DRAGON</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
